@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/divOne"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/divTwo"
+        android:scaleType="centerInside">
+
+
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/divThree">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameExercise"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/imageExo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="600px"
+            android:maxWidth="1200px"
+            android:minHeight="600px"
+            android:minWidth="1200px"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addExercise"
+            ></Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
