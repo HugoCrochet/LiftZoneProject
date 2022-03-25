@@ -33,6 +33,7 @@ public class Exercise  extends AppCompatActivity {
     LinearLayout exerciseImageLayoutThree;
     Button addExercise;
     String idExo;
+    String Test;
     TextView nameExercise;
     ArrayList<String> image;
     int idExoBase;
