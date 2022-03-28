@@ -24,6 +24,7 @@
         <activity android:name=".ListExercises" android:exported="false" />
         <activity android:name=".AddWorkout" android:exported="false" />
         <activity android:name=".Exercise" android:exported="false" />
+        <activity android:name=".Consult" android:exported="false" />
     </application>
 
 </manifest>

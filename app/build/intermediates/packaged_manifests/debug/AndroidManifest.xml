@@ -45,6 +45,9 @@
         <activity
             android:name="com.example.liftzone.Exercise"
             android:exported="false" />
+        <activity
+            android:name="com.example.liftzone.Consult"
+            android:exported="false" />
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"

@@ -2,30 +2,37 @@ package com.example.liftzone.DAO;
 
 public class Response {
 
-    private String m_nom ;
-    private  int m_id;
+    private String w_name;
+    private int w_id, w_time;
 
-
-    public Response (String na, int i){
-        setM_nom(na);
-        setM_id(i);
-
+    public Response (String name, int id){
+        setW_name(name);
+        setW_id(id);
+        //setW_time(time);
     }
 
-    public String getM_nom() {
-        return m_nom;
+    public String getW_name() {
+        return w_name;
     }
 
-    public void setM_nom(String m_nom) {
-        this.m_nom = m_nom;
+    public void setW_name(String w_name) {
+        this.w_name = w_name;
     }
 
-    public int getM_id() {
-        return m_id;
+    public int getW_id() {
+        return w_id;
     }
 
-    public void setM_id(int m_id) {
-        this.m_id = m_id;
+    public void setW_id(int w_id) {
+        this.w_id = w_id;
+    }
+
+    public int getW_time() {
+        return w_time;
+    }
+
+    public void setW_time(int w_time) {
+        this.w_time = w_time;
     }
 
 

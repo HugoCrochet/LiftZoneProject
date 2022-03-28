@@ -1,14 +1,15 @@
-package com.example.liftzone.DAO;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.liftzone;
 
 import android.os.Bundle;
 import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.liftzone.DAO.DBHandler;
-import com.example.liftzone.R;
 
-public class ConsultationActivity extends AppCompatActivity {
+public class Consult extends AppCompatActivity {
+
     DBHandler db;
     LinearLayout ll ;
     @Override
@@ -23,21 +24,15 @@ public class ConsultationActivity extends AppCompatActivity {
     public void generateData (){
         db.selectAll();
         String response;
-        /*
         for(int i=0; i<db.selectAll().size();i++)
         {
             TextView t;
             t = new TextView(getApplicationContext());
-            String value = db.selectAll().get(i).getM_nom() +" ";
-            value += db.selectAll().get(i).getM_genre() +" ";
-            value += db.selectAll().get(i).getM_date() +" ";
-            value += db.selectAll().get(i).getM_note() +" ";
+            String value = db.selectAll().get(i).getW_name();
             t.setText(value);
             t.setId(i);
             ll.addView(t);
         }
-        */
-
 
     }
 }

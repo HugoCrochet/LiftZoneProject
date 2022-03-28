@@ -17,11 +17,14 @@ id addExercise
 id addWorkout
 id appname
 id appsplash
+id bdd
+id descriptionExercise
 id divOne
 id divThree
 id divTwo
 id imageExo
 id layout
+id layoutWorkout
 id listExerciseIn
 id listExerciseOut
 id listMuscleIn
@@ -30,6 +33,7 @@ id middle_div
 id nameExercise
 id scroll
 id search_button
+id workout_name
 layout activity_consultation
 layout activity_home_page
 layout activity_main
@@ -39,5 +43,11 @@ layout list_muscles
 layout view_exercise
 mipmap ic_launcher
 mipmap ic_launcher_round
+string ajout
 string app_name
+string date
+string genre
+string nom
+string note
+string voir
 style Theme.LiftZone

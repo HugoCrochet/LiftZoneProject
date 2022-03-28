@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">LiftZone</string>
+    <string name="nom">Nom</string>
+    <string name="genre">Genre</string>
+    <string name="date">Date</string>
+    <string name="note">note</string>
+    <string name="ajout">"Ajouter "</string>
+    <string name="voir">Consulter la BDD</string>
 </resources>

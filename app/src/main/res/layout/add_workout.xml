@@ -29,10 +29,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:id="@+id/workout_name"
                 />
 
         </LinearLayout>
-
 
 
         <Button
@@ -40,6 +40,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="RECHERCHER MES EXERCICES" />
+
+        <Button
+            android:id="@+id/bdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VOIR BDD" />
 
         <ImageView
             android:id="@+id/appsplash"
